@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.DS_Store
+coverage/
+/.idea
+/.vscode
+npm-debug.log*
+pnpm-lock.yaml
+package-lock.json
+/.output
+dist/
+node_modules/
+.wrangler/
+.dev.vars
+worker-configuration.d.ts
