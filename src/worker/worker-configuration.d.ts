@@ -1,5 +1,8 @@
-// Placeholder for worker configuration types referenced by tsconfig
-declare module "./worker-configuration" {
-  // add any specific types if needed later
-  export {};
+// Worker bindings/types used by Cloudflare Worker / Hono
+declare global {
+  interface Env {
+    // Add specific bindings here, e.g. KV namespaces, secrets, etc.
+    [key: string]: unknown;
+  }
 }
+export {};
